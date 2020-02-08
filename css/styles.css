@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #40514E;
+}
+
+
+
+h1 {
+  margin: 40px auto 0 auto;
+  font-size: 90px;
+  font-family: 'Sacramento', cursive;
+
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+
+}
+
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:  #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+.underH {
+
+  font-weight: normal;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-color: grey;
+    border-width: 5px;
+    margin: 100px auto;
+}
+.top-container {
+  background-color: powderblue;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.middle-container {
+  margin: 50px auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2
+
+}
+
+.webdesingn-img {
+
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  }
+
+
+.webdev-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+
+  padding: 50px 0 20px;
+}
+
+
+.footer-link {
+  color:  #11999E;
+  margin: 50px 20px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.footer-text {
+  color: #EAF6F6;
+}
+
+.contact-me {
+  margin: 50px;
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
